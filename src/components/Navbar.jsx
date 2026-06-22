@@ -11,10 +11,19 @@ const Navbar = () => {
                     <NavLink to="/responsivo" className={({ isActive }) => isActive ? "active" : ""}>Responsivo</NavLink>
                 </li>
                 <li className="hover:text-amber-800 mx-4">
+                    <NavLink to="/grid" className={({ isActive }) => isActive ? "active" : ""}>Grid</NavLink>
+                </li>
+                <li className="hover:text-amber-800 mx-4">
+                    <NavLink to="/dark-mode" className={({ isActive }) => isActive ? "active" : ""}>DarkMode</NavLink>
+                </li>
+                <li className="hover:text-amber-800 mx-4">
                     <NavLink to="/tajeta-iman" className={({ isActive }) => isActive ? "active" : ""}>Tarjeta-Iman</NavLink>
                 </li>
                 <li className="hover:text-amber-800 mx-4">
                     <NavLink to="/tajeta-neon" className={({ isActive }) => isActive ? "active" : ""}>Tarjeta-Neon</NavLink>
+                </li>
+                <li className="hover:text-amber-800 mx-4">
+                    <NavLink to="/tajeta" className={({ isActive }) => isActive ? "active" : ""}>Tarjeta</NavLink>
                 </li>
 
             </ul>

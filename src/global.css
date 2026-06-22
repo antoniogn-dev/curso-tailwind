@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@plugin "daisyui";
 
 @theme {
     --color-primary: #03e9f4;
@@ -14,6 +15,13 @@
     --animate-to-bottom: to-bottom 2s linear infinite;
     --animate-to-left: to-left 2s linear infinite;
     --animate-to-top: to-top 2s linear infinite;
+
+    --breakpoint-xs: 30rem;
+    --breakpoint-sm: 40rem;
+    --breakpoint-md: 48rem;
+    --breakpoint-lg: 64rem;
+    --breakpoint-xl: 80rem;
+    --breakpoint-2xl: 96rem;
     
     @keyframes to-right {
         0% {
@@ -64,5 +72,13 @@ body{
 .active{
     color: white;
     font-weight: bold;
+}
+
+.claro {
+    @apply bg-amber-500
+}
+
+.card {
+    @apply bg-red-500 grid place-content-center rounded-lg text-white font-bold border-2 border-red-600 text-4xl
 }
 
