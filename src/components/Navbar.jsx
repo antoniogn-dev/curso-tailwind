@@ -25,6 +25,9 @@ const Navbar = () => {
                 <li className="hover:text-amber-800 mx-4">
                     <NavLink to="/tajeta" className={({ isActive }) => isActive ? "active" : ""}>Tarjeta</NavLink>
                 </li>
+                 <li className="hover:text-amber-800 mx-4">
+                    <NavLink to="/card-responsive" className={({ isActive }) => isActive ? "active" : ""}>Card Responsive</NavLink>
+                </li>
 
             </ul>
         </nav>

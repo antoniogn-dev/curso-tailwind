@@ -9,6 +9,7 @@ import ResponsivoPage from "./pages/Responsivo"
 import GridPage from "./pages/Grid"
 import DarkPage from "./pages/Dark"
 import TarjetaPage from "./pages/Tarjeta"
+import CardResponsivePage from "./pages/CardResponsive"
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/tajeta-iman" element={<TarjetaImanPage />} />
         <Route path="/tajeta-neon" element={<TarjetaNeonPage />} />
         <Route path="/tajeta" element={<TarjetaPage />} />
+        <Route path="/card-responsive" element={<CardResponsivePage />} />
 
         <Route path="/users/:id" element={<UserPage />} />
 
